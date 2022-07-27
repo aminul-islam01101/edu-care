@@ -1,0 +1,20 @@
+.overlay {
+  background-blend-mode: overlay;
+  background-color: rgba(25, 27, 27, 0.664);
+}
+@media screen and (max-width: 768px) {
+  .heading-font {
+    font-size: 1.75rem;
+  }
+  .paragraph-font {
+    font-size: 0.75rem !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-img {
+    height: 180px;
+
+    object-fit: cover;
+    object-position: center left;
+  }
+}
