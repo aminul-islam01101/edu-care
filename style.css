@@ -16,6 +16,6 @@
 .display-test{
   font-size: calc(1rem + .5vw + 1.75vw);
 }
-.position{
-  font-size: 10px;
+.font-size-12{
+  font-size: 12px;
 }
